@@ -1,0 +1,24 @@
+.search-bar {
+  width: 300px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+/* Mobile view (up to 768px wide) */
+@media (max-width: 768px) {
+  .search-bar input {
+    width: 80%;
+    font-size: 16px;
+  }
+}
+
+/* Tablet view (768px to 1024px wide) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .search-bar input {
+    width: 70%;
+    font-size: 18px;
+  }
+}

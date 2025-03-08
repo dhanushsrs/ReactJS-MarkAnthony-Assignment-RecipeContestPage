@@ -1,0 +1,82 @@
+.filter-sidebar {
+  width: 250px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.filter-sidebar h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: brown;
+}
+
+.filter-sidebar label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.filter-sidebar label input {
+  margin-right: 10px;
+}
+
+.btn-container {
+  display: flex;
+}
+.filter-sidebar button {
+  width: 100%;
+  padding: 10px;
+  background-color: palevioletred;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  height: 70px;
+}
+
+.filter-sidebar button:hover {
+  background-color: violet;
+}
+
+/* Mobile view (up to 768px wide) */
+@media (max-width: 768px) {
+  .filter-sidebar {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+
+  .filter-sidebar h2 {
+    font-size: 18px;
+  }
+
+  .filter-sidebar label {
+    font-size: 14px;
+  }
+
+  .filter-sidebar button {
+    width: 80%;
+  }
+}
+
+/* Tablet view (768px to 1024px wide) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .filter-sidebar {
+    width: 300px;
+  }
+
+  .filter-sidebar h2 {
+    font-size: 20px;
+  }
+
+  .filter-sidebar label {
+    font-size: 16px;
+  }
+  .filter-sidebar button {
+    width: 40%;
+  }
+}
